@@ -1,0 +1,15 @@
+---
+application:
+  name: "awa"
+  project: "taz"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "xz"
+  version: "11"
+routers:
+- name: "main-awa"
+  routes:
+  - application_name: "awa"
+    paths:
+    - "/*"
