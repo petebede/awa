@@ -1,14 +1,11 @@
+---
 application:
-  name: watappxzo
-  project: watappxzo-2
-  publicly_accessible: true
-databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+  name: "watappxzo"
+  project: "star"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-watappxzo"
   routes:
-  - application_name: watappxzo
+  - application_name: "watappxzo"
     paths:
-    - /
+    - "/*"
