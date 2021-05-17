@@ -1,15 +1,14 @@
----
 application:
-  name: "awa"
-  project: "taz"
-  organization: "QoveryCommunity"
+  name: watappxzo
+  project: watappxzo-2
+  publicly_accessible: true
 databases:
-- type: "POSTGRESQL"
-  name: "xz"
-  version: "11"
+- type: postgresql
+  version: "12"
+  name: my-psql
 routers:
-- name: "main-awa"
+- name: main
   routes:
-  - application_name: "awa"
+  - application_name: watappxzo
     paths:
-    - "/*"
+    - /
